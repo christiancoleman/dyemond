@@ -8,52 +8,52 @@ using namespace std;
 
 class Memory {
 
-	public:
+public:
 
-		/*
-			Manually set to window title of game for now
-		*/
-		wstring GAME_NAME = L"FINAL FANTASY XIV";
+	/*
+		Manually set to window title of game for now
+	*/
+	wstring GAME_NAME = L"FINAL FANTASY XIV";
 
-		/*
+	/*
 
-		*/
-		DWORD getGamePID();
+	*/
+	DWORD getGamePID();
 
-		/*
+	/*
 
-		*/
-		HANDLE openProcess();
+	*/
+	HANDLE openProcess();
 
-		/*
+	/*
 			
-		*/
-		DWORD getBaseAddress(HANDLE);
+	*/
+	DWORD getBaseAddress(HANDLE);
 
-		/*
+	/*
 		
-		*/
-		template<typename T>
-		T readMemory(HANDLE, LPVOID);
+	*/
+	template<typename T>
+	T readMemory(HANDLE, LPVOID);
 
-		/*
+	/*
 			
-		*/
-		template<typename T>
-		void writeMemory(HANDLE, LPVOID, T);
+	*/
+	template<typename T>
+	void writeMemory(HANDLE, LPVOID, T);
 
-		/*
+	/*
 			
-		*/
-		template<typename T>
-		DWORD protectMemory(HANDLE, LPVOID, DWORD);
+	*/
+	template<typename T>
+	DWORD protectMemory(HANDLE, LPVOID, DWORD);
 
-		/*
+	/*
 			
-		*/
-		DWORD rebase(DWORD, DWORD);
+	*/
+	DWORD rebase(DWORD, DWORD);
 
-	private:
+private:
 
 		
 
