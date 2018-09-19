@@ -60,7 +60,7 @@ public:
 
 private:
 
-	IMAGE_DOS_HEADER getDosHeader();
+	int getDosHeader();
 
 };
 

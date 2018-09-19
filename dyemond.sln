@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dyemond", "dyemond\dyemond.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dymeondLL", "dymeondLL\dymeondLL.vcxproj", "{BF8DDDB1-8772-4175-BEC5-F336119964D5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dyemondGUI", "dyemondGUI\dyemondGUI.vcxproj", "{F632C81A-B747-4634-B80C-9A4A8169CA66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{BF8DDDB1-8772-4175-BEC5-F336119964D5}.Release|x64.Build.0 = Release|x64
 		{BF8DDDB1-8772-4175-BEC5-F336119964D5}.Release|x86.ActiveCfg = Release|Win32
 		{BF8DDDB1-8772-4175-BEC5-F336119964D5}.Release|x86.Build.0 = Release|Win32
+		{F632C81A-B747-4634-B80C-9A4A8169CA66}.Debug|x64.ActiveCfg = Debug|x64
+		{F632C81A-B747-4634-B80C-9A4A8169CA66}.Debug|x64.Build.0 = Debug|x64
+		{F632C81A-B747-4634-B80C-9A4A8169CA66}.Debug|x86.ActiveCfg = Debug|Win32
+		{F632C81A-B747-4634-B80C-9A4A8169CA66}.Debug|x86.Build.0 = Debug|Win32
+		{F632C81A-B747-4634-B80C-9A4A8169CA66}.Release|x64.ActiveCfg = Release|x64
+		{F632C81A-B747-4634-B80C-9A4A8169CA66}.Release|x64.Build.0 = Release|x64
+		{F632C81A-B747-4634-B80C-9A4A8169CA66}.Release|x86.ActiveCfg = Release|Win32
+		{F632C81A-B747-4634-B80C-9A4A8169CA66}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
